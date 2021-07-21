@@ -15,9 +15,9 @@ class ApartmentSeeder extends Seeder
     {
         //
         \Illuminate\Support\Facades\DB::statement('SET FOREIGN_KEY_CHECKS = 0');
-        \Illuminate\Support\Facades\DB::table('apartment_model')->truncate();
+        \Illuminate\Support\Facades\DB::table('apartments')->truncate();
 
-        \Illuminate\Support\Facades\DB::table('apartment_model')->insert([
+        \Illuminate\Support\Facades\DB::table('apartments')->insert([
             [
                 'id' => 1,
                 'apartmentName' => 'THE SAKURA - 3PN',
@@ -224,36 +224,36 @@ class ApartmentSeeder extends Seeder
             ],
             [
                 'id' => 18,
-                'apartmentName' => 'THE SAKURA',
+                'apartmentName' => 'Eco Green City',
                 'address' => 'Hà Nội',
                 'price' => 800,
-                'information' => 'Ngắm trọn vẹn quần thể nội khu chuẩn phong cách Nhật Bản.',
-                'informationDetail' => 'Căn hộ 3PN - 2WC, diện tích 87m2.View siêu đẹp với sân tập thể thao ,bể bơi 4 mùa , thung lũng hoa Hokkaido,vườn thiền…',
-                'thumbnail' => 'https://cenhomesvn.s3.ap-southeast-1.amazonaws.com/articles/phan-khu-the-sakura-vinhomes-smart-city.1626765883454.jpg',
+                'information' => 'Căn hộ đã có sổ đỏ thuộc tòa CT2.',
+                'informationDetail' => 'Eco Green City là tổ hợp trung tâm thương mại, siêu thị, văn phòng, khu vui chơi giải trí, trung tâm thể dục thể thao và nhà ở khép kín, thuận tiện cho cuộc sống văn minh, hiện đại sẽ đưa chất lượng cuộc sống đô thị lên một tầm cao mới.',
+                'thumbnail' => 'https://img.cenhomes.vn/633x350/2020/03/1584088902-thiet-ke-thi-cong-noi-that-can-ho-chung-cu-eco-green-city-nguyen-xien-1.jpg',
                 'status' => '1',
                 'created_at' => \Illuminate\Support\Carbon::now()->addDays(-10),
                 'updated_at' => \Illuminate\Support\Carbon::now()->addDays(-9),
             ],
             [
                 'id' => 19,
-                'apartmentName' => 'THE SAKURA',
+                'apartmentName' => 'Goldmark City',
                 'address' => 'Hà Nội',
                 'price' => 800,
-                'information' => 'Ngắm trọn vẹn quần thể nội khu chuẩn phong cách Nhật Bản.',
-                'informationDetail' => 'Căn hộ 3PN - 2WC, diện tích 87m2.View siêu đẹp với sân tập thể thao ,bể bơi 4 mùa , thung lũng hoa Hokkaido,vườn thiền…',
-                'thumbnail' => 'https://cenhomesvn.s3.ap-southeast-1.amazonaws.com/articles/phan-khu-the-sakura-vinhomes-smart-city.1626765883454.jpg',
+                'information' => 'Căn hộ  tòa Ruby 1 -  Dự án Goldmark City - 136 Hồ Tùng Mậu, Quận Bắc Từ Liêm.',
+                'informationDetail' => 'Tọa lạc tại vị trí đắc địa, nơi sẽ là trung tâm hành chính và kinh tế của Thủ đô trong tương lai, đầu mối trung tâm kết nối các trục đường lớn',
+                'thumbnail' => 'https://img.cenhomes.vn/633x350/2019/11/1572944553-f4c4a24d307bd6258f6a.jpg',
                 'status' => '1',
                 'created_at' => \Illuminate\Support\Carbon::now()->addDays(-10),
                 'updated_at' => \Illuminate\Support\Carbon::now()->addDays(-9),
             ],
             [
                 'id' => 20,
-                'apartmentName' => 'THE SAKURA',
+                'apartmentName' => 'Eco Dream',
                 'address' => 'Hà Nội',
                 'price' => 800,
-                'information' => 'Ngắm trọn vẹn quần thể nội khu chuẩn phong cách Nhật Bản.',
-                'informationDetail' => 'Căn hộ 3PN - 2WC, diện tích 87m2.View siêu đẹp với sân tập thể thao ,bể bơi 4 mùa , thung lũng hoa Hokkaido,vườn thiền…',
-                'thumbnail' => 'https://cenhomesvn.s3.ap-southeast-1.amazonaws.com/articles/phan-khu-the-sakura-vinhomes-smart-city.1626765883454.jpg',
+                'information' => 'Căn hộ số 06 tầng 11  dự án Ecodream Nguyễn Xiển',
+                'informationDetail' => 'Eco Dream trở thành  tâm điểm phía tây nam Hà Nội. Căn hộ 1106 là căn hộ thuộc tầng trung củ dự án với tầm view trọn hồ điều hòa và khu liền kề. Với thiết kế thông minh mang lại cảm giác ấm cúng cho chủ nhà .',
+                'thumbnail' => 'https://img.cenhomes.vn/633x350/2019/03/noi-that-cao-cap-cua-can-ho-eco-green-city.jpg',
                 'status' => '1',
                 'created_at' => \Illuminate\Support\Carbon::now()->addDays(-10),
                 'updated_at' => \Illuminate\Support\Carbon::now()->addDays(-9),
