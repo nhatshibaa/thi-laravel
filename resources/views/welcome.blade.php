@@ -91,141 +91,29 @@
             </div>
             <div class="row">
                 <div class="isotope" id="port-items">
-                    <div class="col-md-4 col-sm-6 col-xs-6 element-item sale" data-category="sale">
-                        <div class="property-container">
-                            <div class="property-image">
-
-                                <img src="assets/img/img02.jpg" alt="arillo real estate theme">
-                                <div class="property-price">
-                                    <h4>Residential</h4>
-                                    <span>$800,000</span>
+                    @foreach($list as $item)
+                        <div class="col-md-4 col-sm-6 col-xs-6 element-item sale" data-category="sale">
+                            <div class="property-container">
+                                <div class="property-image">
+                                    <img src="{{$item->thumbnail}}" alt="">
+                                    <div class="property-price">
+                                        <span>{{$item->price}}$</span>
+                                    </div>
+                                </div>
+                                <div class="property-features">
+                                    <span><i class="fa fa-home"></i> 5,000 m<sup>2</sup></span>
+                                    <span><i class="fa fa-hdd-o"></i> 2 Bed</span>
+                                    <span><i class="fa fa-male"></i> 2 Bath</span>
+                                </div>
+                                <div class="property-content">
+                                    <h3>
+                                        <a href="#">{{$item->apartmentName}}</a>
+                                        <small>{{$item->address}}</small>
+                                    </h3>
                                 </div>
                             </div>
-                            <div class="property-features">
-                                <span><i class="fa fa-home"></i> 5,000 m<sup>2</sup></span>
-                                <span><i class="fa fa-hdd-o"></i> 2 Bed</span>
-                                <span><i class="fa fa-male"></i> 2 Bath</span>
-                            </div>
-                            <div class="property-content">
-                                <h3>
-                                    <a href="#">The Urban Life</a>
-                                    <small>22, JJ Road, Yogyakarta</small>
-                                </h3>
-                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6 element-item rent" data-category="rent">
-                        <div class="property-container">
-                            <div class="property-image">
-                                <img src="assets/img/img03.jpg" alt="arillo real estate theme">
-                                <div class="property-price">
-                                    <h4>Villa</h4>
-                                    <span>$300,000<small>/year</small></span>
-                                </div>
-                            </div>
-                            <div class="property-features">
-                                <span><i class="fa fa-home"></i> 5,000 m<sup>2</sup></span>
-                                <span><i class="fa fa-hdd-o"></i> 2 Bed</span>
-                                <span><i class="fa fa-male"></i> 2 Bath</span>
-                            </div>
-                            <div class="property-content">
-                                <h3>
-                                    <a href="#">The Urban Life</a>
-                                    <small>22, JJ Road, Yogyakarta</small>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-6 element-item sale" data-category="sale">
-                        <div class="property-container">
-                            <div class="property-image">
-                                <img src="assets/img/img04.jpg" alt="arillo real estate theme">
-                                <div class="property-price">
-                                    <h4>Commercial</h4>
-                                    <span>$800,000</span>
-                                </div>
-                            </div>
-                            <div class="property-features">
-                                <span><i class="fa fa-home"></i> 5,000 m<sup>2</sup></span>
-                                <span><i class="fa fa-hdd-o"></i> 2 Bed</span>
-                                <span><i class="fa fa-male"></i> 2 Bath</span>
-                            </div>
-                            <div class="property-content">
-                                <h3>
-                                    <a href="#">The Urban Life</a>
-                                    <small>22, JJ Road, Yogyakarta</small>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6 element-item rent" data-category="rent">
-                        <div class="property-container">
-                            <div class="property-image">
-                                <img src="assets/img/img05.jpg" alt="arillo real estate theme">
-                                <div class="property-price">
-                                    <h4>Residential</h4>
-                                    <span>$800,000<small>/year</small></span>
-                                </div>
-                            </div>
-                            <div class="property-features">
-                                <span><i class="fa fa-home"></i> 5,000 m<sup>2</sup></span>
-                                <span><i class="fa fa-hdd-o"></i> 2 Bed</span>
-                                <span><i class="fa fa-male"></i> 2 Bath</span>
-                            </div>
-                            <div class="property-content">
-                                <h3>
-                                    <a href="#">The Urban Life</a>
-                                    <small>22, JJ Road, Yogyakarta</small>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-6 element-item sale" data-category="sale">
-                        <div class="property-container">
-                            <div class="property-image">
-                                <img src="assets/img/img02.jpg" alt="arillo real estate theme">
-                                <div class="property-price">
-                                    <h4>Residential</h4>
-                                    <span>$800,000</span>
-                                </div>
-                            </div>
-                            <div class="property-features">
-                                <span><i class="fa fa-home"></i> 5,000 m<sup>2</sup></span>
-                                <span><i class="fa fa-hdd-o"></i> 2 Bed</span>
-                                <span><i class="fa fa-male"></i> 2 Bath</span>
-                            </div>
-                            <div class="property-content">
-                                <h3>
-                                    <a href="#">The Urban Life</a>
-                                    <small>22, JJ Road, Yogyakarta</small>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6 element-item rent" data-category="rent">
-                        <div class="property-container">
-                            <div class="property-image">
-                                <img src="assets/img/img03.jpg" alt="arillo real estate theme">
-                                <div class="property-price">
-                                    <h4>Villa</h4>
-                                    <span>$300,000<small>/year</small></span>
-                                </div>
-                            </div>
-                            <div class="property-features">
-                                <span><i class="fa fa-home"></i> 5,000 m<sup>2</sup></span>
-                                <span><i class="fa fa-hdd-o"></i> 2 Bed</span>
-                                <span><i class="fa fa-male"></i> 2 Bath</span>
-                            </div>
-                            <div class="property-content">
-                                <h3>
-                                    <a href="#">The Urban Life</a>
-                                    <small>22, JJ Road, Yogyakarta</small>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>  <!-- isotope -->
             </div>  <!-- row -->
             <div class="row">
@@ -241,7 +129,6 @@
             <div class="row">
                 <div class="col-md-12 copyright">
                     <p>Copyright &copy; 2015. All Right Reserved.</p>
-                    <p>Theme : Sweet<strong>Home</strong> 1.0 Designed by <strong>ThemeWagon <sup>TM</sup></strong></p>
                     <a href="#top" class="btn btn-primary scroltop"><i class="fa fa-angle-up"></i></a>
                 </div>
             </div>
