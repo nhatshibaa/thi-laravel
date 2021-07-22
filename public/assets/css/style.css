@@ -2,7 +2,7 @@
     ========================================
     SWEET HOME - REAL ESTATE TEMPLATE
     ========================================
-    
+
     @author         : Themewagon
     @version        : v1.0
     @date-create    : 07/14/2014
@@ -14,7 +14,7 @@
     ========================================
     TABLE OF CONTENT
     ========================================
-    
+
     [1: Global Style]
     [2: Header]
         [2.1: Top Bar]
@@ -35,7 +35,7 @@
 */
 
 
-/* 
+/*
     ==================================================================
                             [1. GLOBAL STYLE]
     ==================================================================
@@ -58,31 +58,31 @@ body{
     line-height: 24px;
 }
 
-::-moz-selection { 
-    color: #fff; 
-    text-shadow: none; 
-    background: #3498db; 
+::-moz-selection {
+    color: #fff;
+    text-shadow: none;
+    background: #3498db;
 }
 
-::-webkit-selection { 
-    color: #fff; 
-    text-shadow: none; 
-    background: #3498db; 
+::-webkit-selection {
+    color: #fff;
+    text-shadow: none;
+    background: #3498db;
 }
 
-::selection { 
-    color: #fff; 
-    text-shadow: none; 
-    background: #3498db; 
+::selection {
+    color: #fff;
+    text-shadow: none;
+    background: #3498db;
 }
 
 ::-webkit-scrollbar {
     width: 10px;
-} 
+}
 
 ::-webkit-scrollbar-track {
     background-color: #333;
-} 
+}
 
 ::-webkit-scrollbar-thumb {
     background-color: #666;
@@ -90,11 +90,11 @@ body{
        -moz-border-radius: 2px;
          -o-border-radius: 2px;
             border-radius: 2px;
-} 
+}
 
 ::-webkit-scrollbar-button {
     display: none;
-} 
+}
 
 ::-webkit-scrollbar-corner {
     background-color: #000000;
@@ -230,7 +230,7 @@ p {
     line-height: 1.86em;
 }
 
-/* 
+/*
     =============================================================================
                                     [2. Header]
     =============================================================================
@@ -381,7 +381,7 @@ p {
 }
 
 /*
---------------------------------------------------------------------------------  
+--------------------------------------------------------------------------------
                                 [2.2 - Nav Bar]
 --------------------------------------------------------------------------------
 */
@@ -401,7 +401,7 @@ p {
     -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
     box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
 }
-   
+
 .navbar {
     margin-bottom: 0;
     /* z-index: 8000; */
@@ -415,14 +415,14 @@ p {
     box-shadow: none;
 }
 
-.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:hover,
     .navbar-default .navbar-toggle:focus {
     color: #333;
     background: #3C466E;
 }
 
-.navbar-default .navbar-nav>.open>a, 
-    .navbar-default .navbar-nav>.open>a:hover, 
+.navbar-default .navbar-nav>.open>a,
+    .navbar-default .navbar-nav>.open>a:hover,
     .navbar-default .navbar-nav>.open>a:focus {
     background-color: #000;
     color: #555;
@@ -460,20 +460,20 @@ p {
     color: rgba(255,255,255,.5);
 }
 
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color: #fff;
     background-color: lightseagreen;
 }
 
 
-.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #fff;
     background-color: rgba(32, 178, 170, 0.44);
 }
-   
+
 .nav > li > a >.fa {
     font-size: 13px;
     vertical-align: middle;
@@ -531,7 +531,7 @@ p {
     position: relative;
 }
 
-.nav-wrap 
+.nav-wrap
 {
     position: fixed;
     top: 0;
@@ -595,14 +595,14 @@ p {
         box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
     }
 
-     
-    .container > .navbar-header, 
+
+    .container > .navbar-header,
     .container > .navbar-collapse {
         margin-right: 0;
         margin-left: 0;
     }
 
-    .navbar-collapse, 
+    .navbar-collapse,
     .navbar-collapse.in {
         width: 100%;
         overflow: hidden;
@@ -763,13 +763,13 @@ button.navbar-btn:hover {
 }
 .fixed {
     position: fixed;
-    top:0; 
+    top:0;
     left:0;
-    width: 100%; 
+    width: 100%;
     padding: 0px;
 } */
 
-/* 
+/*
     =============================================================================
                                 [3. Header  Slider]
     =============================================================================
@@ -910,7 +910,7 @@ h2.white {
     text-transform: capitalize;
 }
 
-/* 
+/*
     ==============================================================================
                                         [4. SERVICE]
     ==============================================================================
@@ -1036,7 +1036,7 @@ h2.white {
     transition: all 0.3s ease-in-out;
 }
 
-/* 
+/*
     =================================================================================
                                 [5. Property Content]
     =================================================================================
@@ -1315,8 +1315,8 @@ h2.white {
     background-color: #ddd;
 }
 
-.pagination, .pagination>li:first-child>a, 
-.pagination>li:first-child>span, 
+.pagination, .pagination>li:first-child>a,
+.pagination>li:first-child>span,
 .pagination>li:last-child>a, .pagination>li:last-child>span {
     border-radius: 0;
 }
@@ -1351,7 +1351,7 @@ h2.white {
     margin-right: 2px;
 }
 
-/* 
+/*
     ==================================================================================
                                         [6. Agent]
     ===================================================================================
@@ -1477,7 +1477,7 @@ h2.white {
     margin-right: 5px;
 }
 
-/* 
+/*
     ============================================================================
                             [ 7. PROCESS]
     =============================================================================
@@ -1531,7 +1531,7 @@ h2.white {
     font-size: 1.12em;
 }
 
-/* 
+/*
     ===================================================================================
                                     [8. Testimonial]
     ====================================================================================
@@ -1558,7 +1558,7 @@ p.cmnt{
     padding: 10px 20px;
 }
 
-/* 
+/*
 ==================================================================================
                                     [ 9. Contact]
 ==================================================================================
@@ -1585,7 +1585,7 @@ p.cmnt{
     color: #fff;
 }
 
-/* 
+/*
     -------------------------------------------------------------------------------
                                     [9.1 -  Contact-form]
     -------------------------------------------------------------------------------
@@ -1662,7 +1662,7 @@ p.cmnt{
     color: #fff;
 }
 
-/* 
+/*
     -------------------------------------------------------------------------------
                                     [9.2 -  Subscribe]
     -------------------------------------------------------------------------------
@@ -1693,7 +1693,7 @@ p.cmnt{
     color: #000;
 }
 
-/* 
+/*
     =====================================================================================
                                         [10. FOOTER]
     =====================================================================================
@@ -1705,7 +1705,7 @@ p.cmnt{
     background-color: #0f101a;
 }
 
-/* 
+/*
     ------------------------------------------------------------------------------
                                         [10.1 - Main Footer]
     ------------------------------------------------------------------------------
@@ -1778,7 +1778,7 @@ address {
     color: #3bafda;
 }
 
-/* 
+/*
     ------------------------------------------------------------------------------
                                         [10.2 - Copyright]
     ------------------------------------------------------------------------------

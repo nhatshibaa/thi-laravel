@@ -16,7 +16,7 @@
             @foreach ($list as $item)
                 {{-- "Three Dots" Separator --}}
                 @if (is_string($item))
-                    <li class="page-item disabled" aria-disabled="true"><span class="page-link">{{ $element }}</span></li>
+                    <li class="page-item disabled" aria-disabled="true"><span class="page-link">{{ $item }}</span></li>
                 @endif
 
                 {{-- Array Of Links --}}

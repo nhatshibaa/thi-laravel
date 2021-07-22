@@ -55,17 +55,17 @@
                     @endif
 
                     {{-- Pagination Elements --}}
-                    @foreach ($elements as $element)
+                    @foreach ($list as $item)
                         {{-- "Three Dots" Separator --}}
-                        @if (is_string($element))
+                        @if (is_string($item))
                             <span aria-disabled="true">
-                                <span class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 cursor-default leading-5">{{ $element }}</span>
+                                <span class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white border border-gray-300 cursor-default leading-5">{{ $item }}</span>
                             </span>
                         @endif
 
                         {{-- Array Of Links --}}
-                        @if (is_array($element))
-                            @foreach ($element as $page => $url)
+                        @if (is_array($item))
+                            @foreach ($item as $page => $url)
                                 @if ($page == $paginator->currentPage())
                                     <span aria-current="page">
                                         <span class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5">{{ $page }}</span>

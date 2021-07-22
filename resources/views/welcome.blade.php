@@ -95,7 +95,7 @@
                         <div class="col-md-4 col-sm-6 col-xs-6 element-item sale" data-category="sale">
                             <div class="property-container">
                                 <div class="property-image">
-                                    <img src="{{$item->thumbnail}}" alt="">
+                                    <img src="{{$item->thumbnail}}" alt="" width="300px">
                                     <div class="property-price">
                                         <span>{{$item->price}}$</span>
                                     </div>
@@ -117,8 +117,8 @@
                 </div>  <!-- isotope -->
             </div>  <!-- row -->
             <div class="row">
-                <div style="margin-left: 50%">
-                    @include('vendor.pagination.bootstrap-4', ['paginator' => $list])
+                <div style="margin-left: 40%">
+                    @include('vendor.pagination.pagi', ['paginator' => $list])
                 </div>
             </div>
         </div>

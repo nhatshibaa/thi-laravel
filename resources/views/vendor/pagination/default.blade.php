@@ -13,15 +13,15 @@
             @endif
 
             {{-- Pagination Elements --}}
-            @foreach ($elements as $element)
+            @foreach ($list as $item)
                 {{-- "Three Dots" Separator --}}
-                @if (is_string($element))
-                    <li class="disabled" aria-disabled="true"><span>{{ $element }}</span></li>
+                @if (is_string($item))
+                    <li class="disabled" aria-disabled="true"><span>{{ $item }}</span></li>
                 @endif
 
                 {{-- Array Of Links --}}
-                @if (is_array($element))
-                    @foreach ($element as $page => $url)
+                @if (is_array($item))
+                    @foreach ($item as $page => $url)
                         @if ($page == $paginator->currentPage())
                             <li class="active" aria-current="page"><span>{{ $page }}</span></li>
                         @else
